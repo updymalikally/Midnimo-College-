@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midnimo College — Future-Ready Tech Education</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta name="description"
+        content="Midnimo College offers cutting-edge technology courses in Frontend, Backend, Full Stack Development, Data Analysis, Data Science and more.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ======== NAVBAR ======== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <div class="logo-icon"><i class="fas fa-graduation-cap"></i></div>
+                <span>Midnimo College</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#portal">Student Portal</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions" id="navActions">
+                <a href="#portal" class="btn-nav-outline">Student Portal</a>
+                <a href="#admissions" class="btn-nav-primary">Apply Now</a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ======== HERO SECTION ======== -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-grid"></div>
+            <div class="hero-glow hero-glow-1"></div>
+            <div class="hero-glow hero-glow-2"></div>
+            <div class="hero-glow hero-glow-3"></div>
+            <div class="floating-particles" id="particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge anim">
+                <span class="badge-dot"></span>Admissions Open for 2026
+            </div>
+            <h1 class="hero-title anim">Future-Ready<br><span class="gradient-text">Tech Education</span></h1>
+            <p class="hero-desc anim">Learn Technology Skills for the Future. Master software development and data
+                science at Midnimo College with a curriculum designed for the next generation of innovators.</p>
+            <div class="hero-buttons anim">
+                <a href="#courses" class="btn-glow"><i class="fas fa-compass"></i> Explore Courses</a>
+                <a href="#admissions" class="btn-outline">Join Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="hero-visual anim">
+                <div class="hero-visual-inner">
+                    <div class="hero-code-block">
+                        <div class="code-dots"><span class="dot-r"></span><span class="dot-y"></span><span
+                                class="dot-g"></span></div>
+                        <div class="code-line"><span class="ck">const</span> <span class="cv">future</span> = <span
+                                class="ck">await</span> <span class="cf">learn</span>({</div>
+                        <div class="code-line">&nbsp;&nbsp;college: <span class="cs">"Midnimo"</span>,</div>
+                        <div class="code-line">&nbsp;&nbsp;skills: [<span class="cs">"Frontend"</span>, <span
+                                class="cs">"Backend"</span>, <span class="cs">"AI"</span>],</div>
+                        <div class="code-line">&nbsp;&nbsp;outcome: <span class="cs">"Success 🚀"</span></div>
+                        <div class="code-line">});</div>
+                    </div>
+                    <div class="float-icons">
+                        <div class="fi fi-1"><i class="fab fa-react"></i></div>
+                        <div class="fi fi-2"><i class="fab fa-python"></i></div>
+                        <div class="fi fi-3"><i class="fab fa-node-js"></i></div>
+                        <div class="fi fi-4"><i class="fas fa-database"></i></div>
+                        <div class="fi fi-5"><i class="fab fa-js"></i></div>
+                    </div>
+                </div>
+                <div class="hero-stat hs-left">
+                    <div class="hs-icon"><i class="fas fa-users"></i></div>
+                    <div><small>Students Enrolled</small><strong>500+</strong></div>
+                </div>
+                <div class="hero-stat hs-right">
+                    <div class="hs-icon"><i class="fas fa-briefcase"></i></div>
+                    <div><small>Job Placement</small><strong>96%</strong></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== ABOUT SECTION ======== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="sec-head anim">
+                <span class="sec-tag">Why Midnimo?</span>
+                <h2>Bridging theory with <span class="gradient-text">industry reality.</span></h2>
+                <p>Midnimo College is a technology-focused institution dedicated to training students in practical tech
+                    skills. Our curriculum evolves to match the pace of innovation.</p>
+            </div>
+            <div class="about-cards">
+                <div class="about-card anim" data-d="0">
+                    <div class="ac-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Practical Curriculum</h3>
+                    <p>Learn by building real-world projects with modern tech stacks used by top companies.</p>
+                </div>
+                <div class="about-card anim" data-d="100">
+                    <div class="ac-icon"><i class="fas fa-people-group"></i></div>
+                    <h3>Industry Mentors</h3>
+                    <p>Get guidance, code reviews, and career advice from senior engineers and data scientists.</p>
+                </div>
+                <div class="about-card anim" data-d="200">
+                    <div class="ac-icon"><i class="fas fa-rocket"></i></div>
+                    <h3>Career Acceleration</h3>
+                    <p>Portfolio building, interview prep, and job placement support from day one.</p>
+                </div>
+            </div>
+            <div class="stats-bar anim">
+                <div class="stat-item"><span class="stat-num" data-target="500">0</span><span
+                        class="stat-plus">+</span><small>Students</small></div>
+                <div class="stat-item"><span class="stat-num" data-target="12">0</span><small>Courses</small></div>
+                <div class="stat-item"><span class="stat-num">24/7</span><small>Lab Access</small></div>
+                <div class="stat-item"><span class="stat-num" data-target="96">0</span><span
+                        class="stat-plus">%</span><small>Placement</small></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== COURSES SECTION ======== -->
+    <section class="section courses" id="courses">
+        <div class="container">
+            <div class="sec-head anim">
+                <span class="sec-tag">Our Programs</span>
+                <h2>Courses designed for <span class="gradient-text">tomorrow's challenges.</span></h2>
+                <p>From frontend finesse to data-driven decision making — choose your path to mastery.</p>
+            </div>
+            <div class="courses-grid">
+
+                <!-- Frontend Development -->
+                <div class="course-card anim" data-d="0">
+                    <div class="cc-top">
+                        <div class="cc-icon"><i class="fab fa-html5"></i></div>
+                        <span class="cc-tag tag-pop">Popular</span>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>Master HTML, CSS, JavaScript and build stunning, responsive interfaces that users love.</p>
+                    <div class="cc-meta">
+                        <span><i class="fas fa-clock"></i> 4 Months</span>
+                        <span><i class="fas fa-book-open"></i> 12 Lessons</span>
+                    </div>
+                    <div class="cc-techs">
+                        <span class="tech-pill">HTML</span>
+                        <span class="tech-pill">CSS</span>
+                        <span class="tech-pill">JavaScript</span>
+                    </div>
+                    <button class="cc-btn" onclick="openCourseModal('frontend')">View Details <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+
+                <!-- Backend Development -->
+                <div class="course-card anim" data-d="100">
+                    <div class="cc-top">
+                        <div class="cc-icon ci-green"><i class="fab fa-node-js"></i></div>
+                        <span class="cc-tag tag-new">New</span>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Build robust server-side applications with Node.js, Express, databases, and APIs.</p>
+                    <div class="cc-meta">
+                        <span><i class="fas fa-clock"></i> 4 Months</span>
+                        <span><i class="fas fa-book-open"></i> 12 Lessons</span>
+                    </div>
+                    <div class="cc-techs">
+                        <span class="tech-pill">Node.js</span>
+                        <span class="tech-pill">Express</span>
+                        <span class="tech-pill">MongoDB</span>
+                    </div>
+                    <button class="cc-btn" onclick="openCourseModal('backend')">View Details <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+
+                <!-- Full Stack -->
+                <div class="course-card anim" data-d="200">
+                    <div class="cc-top">
+                        <div class="cc-icon ci-cyan"><i class="fas fa-layer-group"></i></div>
+                        <span class="cc-tag tag-hot">Hot</span>
+                    </div>
+                    <h3>Full Stack Development</h3>
+                    <p>End-to-end mastery. Combine frontend and backend to build complete web applications.</p>
+                    <div class="cc-meta">
+                        <span><i class="fas fa-clock"></i> 6 Months</span>
+                        <span><i class="fas fa-book-open"></i> 24 Lessons</span>
+                    </div>
+                    <div class="cc-techs">
+                        <span class="tech-pill">HTML</span>
+                        <span class="tech-pill">CSS</span>
+                        <span class="tech-pill">JavaScript</span>
+                        <span class="tech-pill">Node.js</span>
+                        <span class="tech-pill">MongoDB</span>
+                    </div>
+                    <button class="cc-btn" onclick="openCourseModal('fullstack')">View Details <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+
+                <!-- Data Analysis -->
+                <div class="course-card anim" data-d="0">
+                    <div class="cc-top">
+                        <div class="cc-icon ci-orange"><i class="fas fa-chart-bar"></i></div>
+                    </div>
+                    <h3>Data Analysis</h3>
+                    <p>Turn raw data into actionable insights. Learn Excel, SQL, and data visualization techniques.</p>
+                    <div class="cc-meta">
+                        <span><i class="fas fa-clock"></i> 3 Months</span>
+                        <span><i class="fas fa-book-open"></i> 8 Lessons</span>
+                    </div>
+                    <div class="cc-techs">
+                        <span class="tech-pill">Excel</span>
+                        <span class="tech-pill">SQL</span>
+                        <span class="tech-pill">Power BI</span>
+                    </div>
+                    <button class="cc-btn" onclick="openCourseModal('dataanalysis')">View Details <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+
+                <!-- Data Science -->
+                <div class="course-card anim" data-d="100">
+                    <div class="cc-top">
+                        <div class="cc-icon ci-pink"><i class="fas fa-brain"></i></div>
+                        <span class="cc-tag tag-adv">Advanced</span>
+                    </div>
+                    <h3>Data Science</h3>
+                    <p>Dive into machine learning, neural networks, and AI. Build predictive models that solve real
+                        problems.</p>
+                    <div class="cc-meta">
+                        <span><i class="fas fa-clock"></i> 6 Months</span>
+                        <span><i class="fas fa-book-open"></i> 8 Lessons</span>
+                    </div>
+                    <div class="cc-techs">
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">Pandas</span>
+                        <span class="tech-pill">Machine Learning</span>
+                    </div>
+                    <button class="cc-btn" onclick="openCourseModal('datascience')">View Details <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+
+                <!-- Web Design -->
+                <div class="course-card anim" data-d="200">
+                    <div class="cc-top">
+                        <div class="cc-icon ci-violet"><i class="fas fa-palette"></i></div>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Create visually stunning, user-centered designs. Master Figma, UI/UX principles and prototyping.
+                    </p>
+                    <div class="cc-meta">
+                        <span><i class="fas fa-clock"></i> 4 Months</span>
+                        <span><i class="fas fa-book-open"></i> 10 Lessons</span>
+                    </div>
+                    <div class="cc-techs">
+                        <span class="tech-pill">Figma</span>
+                        <span class="tech-pill">UI/UX</span>
+                        <span class="tech-pill">Prototyping</span>
+                    </div>
+                    <button class="cc-btn" onclick="openCourseModal('webdesign')">View Details <i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== COURSE DETAIL MODAL ======== -->
+    <div class="modal-overlay" id="courseModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeCourseModal()"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <div class="modal-icon" id="modalIcon"><i class="fab fa-html5"></i></div>
+                <div>
+                    <h2 id="modalTitle">Frontend Development</h2>
+                    <div class="modal-meta">
+                        <span id="modalDuration"><i class="fas fa-clock"></i> 4 Months</span>
+                        <span id="modalLessons"><i class="fas fa-book-open"></i> 12 Lessons</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-techs" id="modalTechs"></div>
+            <h4>Course Curriculum</h4>
+            <ol class="modal-lessons" id="modalLessonsList"></ol>
+            <div class="modal-actions">
+                <a href="#admissions" class="btn-glow" onclick="closeCourseModal()"><i class="fas fa-paper-plane"></i>
+                    Apply Now</a>
+                <a href="#contact" class="btn-outline" onclick="closeCourseModal()">Ask a Question</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======== FEATURES SECTION ======== -->
+    <section class="section features" id="features">
+        <div class="container">
+            <div class="sec-head anim">
+                <span class="sec-tag">Why Choose Us</span>
+                <h2>The Midnimo <span class="gradient-text">Advantage.</span></h2>
+                <p>Everything you need to transform from beginner to job-ready professional.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feat-card anim" data-d="0">
+                    <div class="fc-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Practical Learning</h3>
+                    <p>80% hands-on projects. Build real products from week one.</p>
+                </div>
+                <div class="feat-card anim" data-d="100">
+                    <div class="fc-icon"><i class="fas fa-project-diagram"></i></div>
+                    <h3>Real Projects</h3>
+                    <p>Work on client-based projects and build a standout portfolio.</p>
+                </div>
+                <div class="feat-card anim" data-d="200">
+                    <div class="fc-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <h3>Experienced Teachers</h3>
+                    <p>Learn from industry professionals with 5+ years at leading tech companies.</p>
+                </div>
+                <div class="feat-card anim" data-d="0">
+                    <div class="fc-icon"><i class="fas fa-clock"></i></div>
+                    <h3>Flexible Learning</h3>
+                    <p>Morning, evening, and weekend classes. Plus 24/7 online access.</p>
+                </div>
+                <div class="feat-card anim" data-d="100">
+                    <div class="fc-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3>Career Skills</h3>
+                    <p>Resume workshops, mock interviews, and direct employer connections.</p>
+                </div>
+                <div class="feat-card anim" data-d="200">
+                    <div class="fc-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Certified Programs</h3>
+                    <p>Earn industry-recognized certificates upon completion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== ADMISSIONS SECTION ======== -->
+    <section class="section admissions" id="admissions">
+        <div class="container">
+            <div class="admissions-wrap">
+                <div class="admissions-info anim">
+                    <span class="sec-tag">Enroll Now</span>
+                    <h2>Start Your Tech <span class="gradient-text">Journey Today.</span></h2>
+                    <p>Applications for the upcoming semester are now open. Secure your spot and join a community of
+                        future tech leaders.</p>
+                    <div class="admissions-perks">
+                        <div class="perk"><i class="fas fa-check-circle"></i> Flexible payment plans</div>
+                        <div class="perk"><i class="fas fa-check-circle"></i> Scholarship opportunities</div>
+                        <div class="perk"><i class="fas fa-check-circle"></i> Start any month</div>
+                        <div class="perk"><i class="fas fa-check-circle"></i> Career support included</div>
+                    </div>
+                </div>
+                <form class="admissions-form glass-card anim" id="admissionsForm">
+                    <h3>Application Form</h3>
+                    <div class="fg">
+                        <label for="admCourse">Select Course</label>
+                        <select id="admCourse" required>
+                            <option value="">— Choose a course —</option>
+                            <option>Frontend Development</option>
+                            <option>Backend Development</option>
+                            <option>Full Stack Development</option>
+                            <option>Data Analysis</option>
+                            <option>Data Science</option>
+                            <option>Web Design</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <div class="fg"><label for="admName">Full Name</label><input type="text" id="admName"
+                                placeholder="Abdimalik Ahmed" required></div>
+                        <div class="fg"><label for="admEmail">Email</label><input type="email" id="admEmail"
+                                placeholder="you@example.com" required></div>
+                    </div>
+                    <div class="fg"><label for="admPhone">Phone Number</label><input type="tel" id="admPhone"
+                            placeholder="+252 612 345 678" required></div>
+                    <button type="submit" class="btn-glow full-w"><i class="fas fa-paper-plane"></i> Submit
+                        Application</button>
+                    <div class="form-msg" id="admMsg"><i class="fas fa-check-circle"></i> Application submitted! We'll
+                        contact you within 24 hours.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== STUDENT PORTAL SECTION ======== -->
+    <section class="section portal" id="portal">
+        <div class="container">
+            <div class="sec-head anim">
+                <span class="sec-tag">My Portal</span>
+                <h2>Student Dashboard <span class="gradient-text">Preview</span></h2>
+                <p>A glimpse of your personalized learning environment.</p>
+            </div>
+
+            <div class="portal-dash glass-card anim">
+                <div class="portal-header">
+                    <div class="portal-avatar">AA</div>
+                    <div>
+                        <h3>Welcome back, Abdimalik Ahmed</h3>
+                        <p>You have <strong>3</strong> pending assignments</p>
+                    </div>
+                </div>
+
+                <!-- Dashboard Stat Cards -->
+                <div class="portal-stats">
+                    <div class="ps-card">
+                        <div class="ps-top">
+                            <div class="ps-icon"><i class="fas fa-sync-alt"></i></div><span class="ps-badge bg-green"><i
+                                    class="fas fa-arrow-up"></i> +12%</span>
+                        </div>
+                        <small>Course Progress</small>
+                        <strong>78%</strong>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width:78%"></div>
+                        </div>
+                    </div>
+                    <div class="ps-card">
+                        <div class="ps-top">
+                            <div class="ps-icon"><i class="fas fa-file-alt"></i></div><span
+                                class="ps-badge bg-orange">Due</span>
+                        </div>
+                        <small>Assignments</small>
+                        <strong>3</strong>
+                        <p class="ps-sub">Next: Data Structures | Tomorrow</p>
+                    </div>
+                    <div class="ps-card">
+                        <div class="ps-top">
+                            <div class="ps-icon"><i class="fas fa-terminal"></i></div><span class="ps-badge bg-green"><i
+                                    class="fas fa-arrow-up"></i> +8%</span>
+                        </div>
+                        <small>Hours Studied</small>
+                        <strong>120h</strong>
+                        <p class="ps-sub">Top language: JavaScript</p>
+                    </div>
+                </div>
+
+                <!-- Tabs: Course View / Student List -->
+                <div class="portal-tabs">
+                    <button class="ptab active" data-tab="courseView">My Course Progress</button>
+                    <button class="ptab" data-tab="studentList">All Students</button>
+                </div>
+
+                <!-- Course View Tab -->
+                <div class="ptab-content active" id="courseView">
+                    <div class="course-progress-card">
+                        <h4><i class="fab fa-html5"></i> Frontend Development Progress</h4>
+                        <div class="progress-bar mb-12">
+                            <div class="progress-fill" style="width:58%"></div>
+                        </div>
+                        <div class="cp-list">
+                            <div class="cp-item completed"><i class="fas fa-check-circle"></i> HTML Fundamentals <span
+                                    class="cp-status done">Completed</span></div>
+                            <div class="cp-item completed"><i class="fas fa-check-circle"></i> CSS Basics <span
+                                    class="cp-status done">Completed</span></div>
+                            <div class="cp-item in-progress"><i class="fas fa-spinner fa-spin"></i> JavaScript Basics
+                                <span class="cp-status ip">In Progress</span>
+                            </div>
+                            <div class="cp-item pending"><i class="fas fa-circle"></i> DOM Manipulation <span
+                                    class="cp-status pend">Pending</span></div>
+                            <div class="cp-item pending"><i class="fas fa-circle"></i> Fetch API <span
+                                    class="cp-status pend">Pending</span></div>
+                            <div class="cp-item pending"><i class="fas fa-circle"></i> Final Project <span
+                                    class="cp-status pend">Pending</span></div>
+                        </div>
+                    </div>
+                    <div class="portal-bottom-row">
+                        <div class="activity-chart-card">
+                            <h4>Weekly Coding Activity</h4>
+                            <div class="chart-bars">
+                                <div class="cb-wrap">
+                                    <div class="cb" style="height:30%"></div><span>Mon</span>
+                                </div>
+                                <div class="cb-wrap">
+                                    <div class="cb" style="height:50%"></div><span>Tue</span>
+                                </div>
+                                <div class="cb-wrap">
+                                    <div class="cb active" style="height:80%"><span class="cb-tip">5h</span></div>
+                                    <span>Wed</span>
+                                </div>
+                                <div class="cb-wrap">
+                                    <div class="cb" style="height:40%"></div><span>Thu</span>
+                                </div>
+                                <div class="cb-wrap">
+                                    <div class="cb" style="height:65%"></div><span>Fri</span>
+                                </div>
+                                <div class="cb-wrap">
+                                    <div class="cb" style="height:45%"></div><span>Sat</span>
+                                </div>
+                                <div class="cb-wrap">
+                                    <div class="cb" style="height:20%"></div><span>Sun</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="continue-card">
+                            <h4>Continue Learning</h4>
+                            <span class="cc-course-name">React.js Fundamentals</span>
+                            <div class="mini-code">
+                                <div class="code-dots"><span class="dot-r"></span><span class="dot-y"></span><span
+                                        class="dot-g"></span></div>
+                                <pre><code><span class="ck">const</span> <span class="cv">App</span> = () => {
+  <span class="ck">return</span> (
+    &lt;<span class="cf">div</span>&gt;Hello World&lt;/<span class="cf">div</span>&gt;
+  );
+};</code></pre>
+                            </div>
+                            <a href="#" class="btn-resume">Resume Lesson</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Student List Tab -->
+                <div class="ptab-content" id="studentList">
+                    <div class="student-table-wrap">
+                        <table class="student-table">
+                            <thead>
+                                <tr>
+                                    <th>Student Name</th>
+                                    <th>Course</th>
+                                    <th>Progress</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="st-name">
+                                            <div class="st-avatar">AA</div>Abdimalik
+                                        </div>
+                                    </td>
+                                    <td>Frontend Development</td>
+                                    <td>
+                                        <div class="progress-bar sm">
+                                            <div class="progress-fill" style="width:78%"></div>
+                                        </div><span class="pct">78%</span>
+                                    </td>
+                                    <td><span class="status-badge sb-active">Active</span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="st-name">
+                                            <div class="st-avatar av-b">AH</div>Ahmed
+                                        </div>
+                                    </td>
+                                    <td>Backend Development</td>
+                                    <td>
+                                        <div class="progress-bar sm">
+                                            <div class="progress-fill pf-orange" style="width:55%"></div>
+                                        </div><span class="pct">55%</span>
+                                    </td>
+                                    <td><span class="status-badge sb-active">Active</span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="st-name">
+                                            <div class="st-avatar av-p">FA</div>Fatima
+                                        </div>
+                                    </td>
+                                    <td>Data Analysis</td>
+                                    <td>
+                                        <div class="progress-bar sm">
+                                            <div class="progress-fill pf-green" style="width:82%"></div>
+                                        </div><span class="pct">82%</span>
+                                    </td>
+                                    <td><span class="status-badge sb-active">Active</span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="st-name">
+                                            <div class="st-avatar av-c">AL</div>Ali
+                                        </div>
+                                    </td>
+                                    <td>Full Stack Development</td>
+                                    <td>
+                                        <div class="progress-bar sm">
+                                            <div class="progress-fill pf-red" style="width:40%"></div>
+                                        </div><span class="pct">40%</span>
+                                    </td>
+                                    <td><span class="status-badge sb-warn">Behind</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== CONTACT SECTION ======== -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-wrap">
+                <div class="contact-info anim">
+                    <h2>Got Questions?<br>Let's <span class="gradient-text">Collaborate.</span></h2>
+                    <p>Whether you're a prospective student or a partner, we're here to help shape your future in tech.
+                    </p>
+                    <div class="contact-details">
+                        <div class="cd-item"><i class="fas fa-envelope"></i>
+                            <div><small>Email us</small><strong>admissions@midnimo.edu</strong></div>
+                        </div>
+                        <div class="cd-item"><i class="fas fa-map-marker-alt"></i>
+                            <div><small>Visit us</small><strong>Tech District, Building 4</strong></div>
+                        </div>
+                        <div class="cd-item"><i class="fas fa-phone"></i>
+                            <div><small>Call us</small><strong>+252 612 345 678</strong></div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form glass-card anim" id="contactForm">
+                    <div class="form-row">
+                        <div class="fg"><label for="cName">Name</label><input type="text" id="cName"
+                                placeholder="Jane Doe" required></div>
+                        <div class="fg"><label for="cEmail">Email</label><input type="email" id="cEmail"
+                                placeholder="jane@example.com" required></div>
+                    </div>
+                    <div class="fg"><label for="cMsg">Message</label><textarea id="cMsg" rows="5"
+                            placeholder="How can we help you?" required></textarea></div>
+                    <button type="submit" class="btn-glow full-w">Send Message <i
+                            class="fas fa-paper-plane"></i></button>
+                    <div class="form-msg" id="contactMsg"><i class="fas fa-check-circle"></i> Message sent! We'll get
+                        back to you soon.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== FOOTER ======== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">
+                        <div class="logo-icon"><i class="fas fa-graduation-cap"></i></div><span>Midnimo College</span>
+                    </a>
+                    <p>Empowering the next generation of tech leaders through innovative curriculum and hands-on
+                        learning.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#portal">Student Portal</a></li>
+                        <li><a href="#admissions">Admissions</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Courses</h4>
+                    <ul>
+                        <li><a href="#courses">Frontend Development</a></li>
+                        <li><a href="#courses">Backend Development</a></li>
+                        <li><a href="#courses">Full Stack</a></li>
+                        <li><a href="#courses">Data Science</a></li>
+                        <li><a href="#courses">Data Analysis</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Get the latest updates on courses and tech trends.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email" aria-label="Newsletter email">
+                        <button aria-label="Subscribe"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Midnimo College. All rights reserved.</span>
+                <div class="fb-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
